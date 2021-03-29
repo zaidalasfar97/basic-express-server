@@ -7,7 +7,7 @@ const logger = require('./middleware/logger.js');
 const validator = require('./middleware/validator.js');
 const app = express();
 
-//global middleware
+
 app.use(express.json());
 app.use(logger);
 
